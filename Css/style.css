@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.container {
+    margin: 50px;
+}
+.head {
+    border-bottom: 1px solid #ddd;
+}
+
+.head h2 {
+    padding-bottom: 10px;
+}
+
+.head span {padding-bottom: 20px;
+    display: block;}
+    .contentWrapper {
+        display: block;
+        overflow: hidden;
+        padding: 15px;
+    }
+    
+    .name {
+        display: block;
+        overflow: hidden;
+        float: left;
+        width: 150px;
+    }
+    
+    .firstInput {
+        display: block;
+        overflow: hidden;
+    }
+    
+    .firstName {
+        display: block;
+        overflow: hidden;
+    }
+   
+    
+    .streetAddress {
+        display: block;
+        overflow: hidden;
+    }
+    
+    .streetAddress label {
+        display: block;
+    }
+    
+    .email {
+        display: block;
+        overflow: hidden;
+        float: left;
+        width: 150px;
+    }
+    
+    .number h4 {
+        display: block;
+        overflow: hidden;
+        float: left;
+    }
+    
+    .addressInput {
+        display: block;
+        overflow: hidden;
+    }
+    
+    
+    
+    .address {
+        display: block;
+        overflow: hidden;
+        float: left;
+        width: 150px;
+    }
+    
+    .number {
+        display: block;
+        overflow: hidden;
+        float: left;
+        width: 150px;
+    }
+    
+    .numberInput {
+        display: block;
+        overflow: hidden;
+    }
+
+    input#info {
+        width: 150px;
+        margin-right: 15px;
+        height: 20px;
+    }
+    
+    #areaNumber {
+        width: 65px;
+        height: 20px;
+        margin-right: 15px;
+    }
+    
+    
+    
+    input#virtualInfo {
+        width: 230px;
+        height: 20px;
+    }
+
+    .label {
+        font-size: 14px;
+        font-weight: 400;
+        color: #ddd;
+        margin-right: 28px;
+        margin-bottom: 15px;
+    }
+
+    label#fname {
+        margin-right: 105px;
+    }
+    
+    input#streetInfo {
+        width: 325px;
+        height: 20px;
+    }
+
+    label#acity {
+        margin-right: 145px;
+        margin-bottom: 10px;
+    }
+    
+    label#azid {
+        margin-right: 58px;
+    }
+    
+    .poster {
+        margin-top: 15px;
+    } 
+       
+    span#border {
+        border: 1px solid black;
+        transform: translate(-5px, -2px);
+        display: inline-block;
+        width: 3px;
+    }
